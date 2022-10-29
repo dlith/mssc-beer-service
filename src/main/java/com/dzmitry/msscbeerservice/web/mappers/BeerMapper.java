@@ -1,4 +1,4 @@
-package com.dzmitry.msscbeerservice.mappers;
+package com.dzmitry.msscbeerservice.web.mappers;
 
 import com.dzmitry.msscbeerservice.domain.Beer;
 import com.dzmitry.msscbeerservice.web.model.BeerDto;
