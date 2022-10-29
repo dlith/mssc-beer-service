@@ -8,6 +8,8 @@ import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
+import static com.dzmitry.msscbeerservice.bootstrap.BeerLoader.BEER_1_UPC;
+
 public class BaseTest {
 
     BeerDto getDto(){
@@ -18,7 +20,7 @@ public class BaseTest {
                 .createdDate(OffsetDateTime.now())
                 .lastModifiedDate(OffsetDateTime.now())
                 .price(new BigDecimal("12.99"))
-                .upc(12312312312L)
+                .upc(BEER_1_UPC)
                 .build();
     }
 }
