@@ -12,7 +12,7 @@ import org.springframework.boot.test.autoconfigure.json.JsonTest;
 public class BeerDtoJsonTest extends BaseTest {
 
     @Autowired
-    ObjectMapper objectMapper;
+    private ObjectMapper objectMapper;
 
     @Test
     void testSerializeDto() throws JsonProcessingException {
