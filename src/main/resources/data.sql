@@ -5,7 +5,7 @@ INSERT INTO beer (
         created_date,
         last_modified_date,
         min_on_hand,
-        quantity_to_brew,
+        quantity_on_hand,
         price,
         upc,
         version )
@@ -29,7 +29,7 @@ INSERT INTO beer (
         created_date,
         last_modified_date,
         min_on_hand,
-        quantity_to_brew,
+        quantity_on_hand,
         price,
         upc,
         version )
@@ -39,7 +39,11 @@ values (
         'PALE_ALE',
         CURRENT_TIMESTAMP ,
         CURRENT_TIMESTAMP ,
-        12,  200, 12.95, '0631234300019', 1);
+        12,
+        200,
+        12.95,
+        '0631234300019',
+        1);
 
 INSERT INTO beer (
         id,
@@ -48,7 +52,7 @@ INSERT INTO beer (
         created_date,
         last_modified_date,
         min_on_hand,
-        quantity_to_brew,
+        quantity_on_hand,
         price,
         upc,
         version )
