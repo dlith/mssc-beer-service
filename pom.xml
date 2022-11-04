@@ -9,8 +9,9 @@
         <version>1.0.22</version>
     </parent>
 
-    <artifactId>sfg-brewery-beer-service</artifactId>
-    <version>1.0.17-SNAPSHOT</version>
+    <artifactId>mssc-beer-service</artifactId>
+
+    <version>0.0.1-SNAPSHOT</version>
 
     <description>SFG Brewery Beer Service</description>
 
