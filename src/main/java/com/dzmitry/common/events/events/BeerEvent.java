@@ -1,4 +1,4 @@
-package com.dzmitry.msscbeerservice.events;
+package com.dzmitry.common.events.events;
 
 import com.dzmitry.msscbeerservice.web.model.BeerDto;
 import lombok.*;
