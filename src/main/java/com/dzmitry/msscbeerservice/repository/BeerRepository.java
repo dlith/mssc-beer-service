@@ -1,4 +1,4 @@
-package com.dzmitry.msscbeerservice.config.repository;
+package com.dzmitry.msscbeerservice.repository;
 
 import com.dzmitry.msscbeerservice.domain.Beer;
 import com.dzmitry.sfg.brewery.model.BeerStyleEnum;

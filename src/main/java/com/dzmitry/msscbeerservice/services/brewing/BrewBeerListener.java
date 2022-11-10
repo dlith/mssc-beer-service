@@ -4,7 +4,7 @@ import com.dzmitry.msscbeerservice.config.JmsConfig;
 import com.dzmitry.msscbeerservice.domain.Beer;
 import com.dzmitry.sfg.brewery.model.events.BrewBeerEvent;
 import com.dzmitry.sfg.brewery.model.events.NewInventoryEvent;
-import com.dzmitry.msscbeerservice.config.repository.BeerRepository;
+import com.dzmitry.msscbeerservice.repository.BeerRepository;
 import com.dzmitry.sfg.brewery.model.BeerDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,7 +1,7 @@
 package com.dzmitry.msscbeerservice.services;
 
 import com.dzmitry.msscbeerservice.domain.Beer;
-import com.dzmitry.msscbeerservice.config.repository.BeerRepository;
+import com.dzmitry.msscbeerservice.repository.BeerRepository;
 import com.dzmitry.msscbeerservice.web.mappers.BeerMapper;
 import com.dzmitry.sfg.brewery.model.BeerDto;
 import com.dzmitry.sfg.brewery.model.BeerPagedList;
