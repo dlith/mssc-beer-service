@@ -1,7 +1,7 @@
-package com.dzmitry.msscbeerservice.repository;
+package com.dzmitry.msscbeerservice.config.repository;
 
 import com.dzmitry.msscbeerservice.domain.Beer;
-import com.dzmitry.msscbeerservice.web.model.BeerStyleEnum;
+import com.dzmitry.sfg.brewery.model.BeerStyleEnum;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

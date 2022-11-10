@@ -1,6 +1,6 @@
-package com.dzmitry.common.events.events;
+package com.dzmitry.sfg.brewery.model.events;
 
-import com.dzmitry.msscbeerservice.web.model.BeerDto;
+import com.dzmitry.sfg.brewery.model.BeerDto;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor

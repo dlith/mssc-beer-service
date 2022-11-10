@@ -1,7 +1,6 @@
 package com.dzmitry.msscbeerservice.jsonTest;
 
-import com.dzmitry.msscbeerservice.domain.Beer;
-import com.dzmitry.msscbeerservice.web.model.BeerDto;
+import com.dzmitry.sfg.brewery.model.BeerDto;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;

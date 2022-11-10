@@ -1,8 +1,8 @@
 package com.dzmitry.msscbeerservice.bootstrap;
 
 import com.dzmitry.msscbeerservice.domain.Beer;
-import com.dzmitry.msscbeerservice.repository.BeerRepository;
-import com.dzmitry.msscbeerservice.web.model.BeerStyleEnum;
+import com.dzmitry.msscbeerservice.config.repository.BeerRepository;
+import com.dzmitry.sfg.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

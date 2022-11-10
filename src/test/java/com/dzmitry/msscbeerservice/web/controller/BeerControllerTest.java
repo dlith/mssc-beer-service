@@ -2,8 +2,8 @@ package com.dzmitry.msscbeerservice.web.controller;
 
 import com.dzmitry.msscbeerservice.bootstrap.BeerLoader;
 import com.dzmitry.msscbeerservice.services.BeerService;
-import com.dzmitry.msscbeerservice.web.model.BeerDto;
-import com.dzmitry.msscbeerservice.web.model.BeerStyleEnum;
+import com.dzmitry.sfg.brewery.model.BeerDto;
+import com.dzmitry.sfg.brewery.model.BeerStyleEnum;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultActions;
 
 import java.math.BigDecimal;
 import java.util.UUID;

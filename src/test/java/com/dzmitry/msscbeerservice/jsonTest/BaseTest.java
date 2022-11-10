@@ -1,8 +1,7 @@
 package com.dzmitry.msscbeerservice.jsonTest;
 
-import com.dzmitry.msscbeerservice.domain.Beer;
-import com.dzmitry.msscbeerservice.web.model.BeerDto;
-import com.dzmitry.msscbeerservice.web.model.BeerStyleEnum;
+import com.dzmitry.sfg.brewery.model.BeerDto;
+import com.dzmitry.sfg.brewery.model.BeerStyleEnum;
 
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;

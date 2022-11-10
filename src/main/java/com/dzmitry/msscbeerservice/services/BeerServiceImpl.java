@@ -1,13 +1,12 @@
 package com.dzmitry.msscbeerservice.services;
 
 import com.dzmitry.msscbeerservice.domain.Beer;
-import com.dzmitry.msscbeerservice.repository.BeerRepository;
+import com.dzmitry.msscbeerservice.config.repository.BeerRepository;
 import com.dzmitry.msscbeerservice.web.mappers.BeerMapper;
-import com.dzmitry.msscbeerservice.web.model.BeerDto;
-import com.dzmitry.msscbeerservice.web.model.BeerPagedList;
-import com.dzmitry.msscbeerservice.web.model.BeerStyleEnum;
+import com.dzmitry.sfg.brewery.model.BeerDto;
+import com.dzmitry.sfg.brewery.model.BeerPagedList;
+import com.dzmitry.sfg.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
