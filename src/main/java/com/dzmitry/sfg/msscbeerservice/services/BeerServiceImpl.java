@@ -17,13 +17,12 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
-@Service("beerService")
+@Service
 public class BeerServiceImpl implements BeerService {
-
     private final BeerRepository beerRepository;
     private final BeerMapper beerMapper;
 
-    @Cacheable(cacheNames = "beerListCache", condition = "#showInventoryOnHand == false")
+    @Cacheable(cacheNames = "beerListCache", condition = "#showInventoryOnHand == false ")
     @Override
     public BeerPagedList listBeers(String beerName, BeerStyleEnum beerStyle, PageRequest pageRequest, boolean showInventoryOnHand) {
 
@@ -68,7 +67,7 @@ public class BeerServiceImpl implements BeerService {
         return beerPagedList;
     }
 
-    @Cacheable(cacheNames = "beerCache", key = "#beerId", condition = "#showInventoryOnHand == false")
+    @Cacheable(cacheNames = "beerCache", key = "#beerId", condition = "#showInventoryOnHand == false ")
     @Override
     public BeerDto getById(UUID beerId, boolean showInventoryOnHand) {
         if(showInventoryOnHand) {
